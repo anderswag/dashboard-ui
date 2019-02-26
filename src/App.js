@@ -6,7 +6,7 @@ import NavigationBar from 'components/NavigationBar'
 const Container = styled.div`
   display: grid;
   grid-template-columns: 400px auto;
-  background-image: linear-gradient(to bottom right, #474c65, #33374c);
+  background-image: linear-gradient(to bottom right, #474c65, #0f0f17);
   min-height: 100vh;
 `
 

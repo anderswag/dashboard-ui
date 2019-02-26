@@ -22,12 +22,15 @@ const ProfileContainer = styled.div`
 	}
 `
 
+const mockUrl =
+	'https://media.licdn.com/dms/image/C5603AQF6Zhed_nvc5A/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=AGvvahfKkDLTssmvuP5RpA_ya00IWU8gi2CVt-Zw7pI'
+
 class NavigationBar extends Component {
 	render() {
 		return (
 			<Container>
 				<ProfileContainer>
-					<ProfilePicture url='https://media.licdn.com/dms/image/C5603AQF6Zhed_nvc5A/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=AGvvahfKkDLTssmvuP5RpA_ya00IWU8gi2CVt-Zw7pI' />
+					<ProfilePicture url={mockUrl} />
 					<p>Anderson Hung</p>
 				</ProfileContainer>
 			</Container>
