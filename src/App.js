@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  faEnvelope,
+  faKey,
+  faDigitalTachograph,
+} from '@fortawesome/free-solid-svg-icons'
 import NavigationBar from 'components/NavigationBar'
+
+library.add(faEnvelope, faKey, faDigitalTachograph)
 
 const Container = styled.div`
   display: grid;
