@@ -18,6 +18,7 @@ const Container = styled.div`
   min-height: 100vh;
   padding-left: 60px;
   padding-right: 60px;
+  opacity: 0.9;
 `
 
 class App extends Component {
