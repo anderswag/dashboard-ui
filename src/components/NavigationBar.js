@@ -14,7 +14,7 @@ const ProfileContainer = styled.div`
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 
 	p {
 		margin-left: 10px;

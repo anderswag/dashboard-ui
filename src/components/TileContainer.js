@@ -11,13 +11,36 @@ const Container = styled.div`
 	padding: 30px;
 `
 
+const TileGroup = styled.div`
+	display: grid;
+	grid-gap: 20px;
+
+	grid-template-columns: ${props => (props.full ? '1fr' : '1fr 1fr')};
+`
+
 class TileContainer extends Component {
 	render() {
 		return (
 			<Container>
-				<Tile />
-				<Tile />
+				{this.renderTopTiles()}
+				{this.renderBottomTiles()}
 			</Container>
+		)
+	}
+
+	renderTopTiles() {
+		return (
+			<TileGroup full={true}>
+				<Tile />
+			</TileGroup>
+		)
+	}
+	renderBottomTiles() {
+		return (
+			<TileGroup>
+				<Tile />
+				<Tile />
+			</TileGroup>
 		)
 	}
 }
