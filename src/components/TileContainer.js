@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 import Tile from 'components/Tile'
+import BarGraph from 'components/BarGraph'
 
 const Container = styled.div`
 	display: grid;
@@ -31,7 +32,9 @@ class TileContainer extends Component {
 	renderTopTiles() {
 		return (
 			<TileGroup full={true}>
-				<Tile />
+				<Tile>
+					<BarGraph />
+				</Tile>
 			</TileGroup>
 		)
 	}
