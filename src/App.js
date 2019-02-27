@@ -16,6 +16,8 @@ const Container = styled.div`
   grid-template-columns: 400px auto;
   background-image: linear-gradient(to bottom right, #474c65, #0f0f17);
   min-height: 100vh;
+  padding-left: 60px;
+  padding-right: 60px;
 `
 
 const Test = styled.div`

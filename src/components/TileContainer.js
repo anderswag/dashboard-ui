@@ -3,10 +3,10 @@ import styled from 'styled-components'
 
 const Container = styled.div`
 	display: grid;
-	grid-template-rows: 1fr 2fr;
-	grid-gap: 10px;
+	grid-template-rows: 1fr 1.2fr;
+	grid-gap: 20px;
 	background-color: pink;
-	margin: 50px 0 50px 60px;
+	margin: 50px 0 50px 0;
 	padding: 30px;
 `
 

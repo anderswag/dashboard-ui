@@ -5,9 +5,10 @@ import ProfilePicture from 'components/ProfilePicture'
 import NavItem from 'components/NavItem'
 
 const Container = styled.div`
-	margin: 50px 0 50px 60px;
+	margin: 50px 0 50px 0;
 	padding: 30px;
 	color: #fffff4;
+	background-color: green;
 `
 const ProfileContainer = styled.div`
 	display: flex;
