@@ -7,6 +7,7 @@ import {
   faDigitalTachograph,
 } from '@fortawesome/free-solid-svg-icons'
 import NavigationBar from 'components/NavigationBar'
+import TileContainer from 'components/TileContainer'
 
 library.add(faEnvelope, faKey, faDigitalTachograph)
 
@@ -17,11 +18,21 @@ const Container = styled.div`
   min-height: 100vh;
 `
 
+const Test = styled.div`
+  flex: 1;
+  border: 1px solid black;
+  background-color: cyan;
+`
+
 class App extends Component {
   render() {
     return (
       <Container>
         <NavigationBar />
+        <TileContainer>
+          <Test />
+          <Test />
+        </TileContainer>
       </Container>
     )
   }
