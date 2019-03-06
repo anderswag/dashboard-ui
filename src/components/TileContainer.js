@@ -6,7 +6,7 @@ import BarGraph from 'components/BarGraph'
 
 const Container = styled.div`
 	display: grid;
-	grid-template-rows: 1fr 1.2fr;
+	grid-template-rows: 300px 1.2fr;
 	grid-gap: 20px;
 	margin: 50px 0 50px 0;
 	padding: 30px;
